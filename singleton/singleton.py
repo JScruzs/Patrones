@@ -1,5 +1,6 @@
 # Una es un patron de creacion que garantiza que una clase solo 
 # tenga una instancia y proporciona un unico punto de acceso #
+
 class OnlyOne:
     class __OnlyOne:
         def __init__(self, arg):
